@@ -1,6 +1,6 @@
 {
-  "name": "npm-check",
-  "version": "5.7.0",
+  "name": "npm-check-with-yarn",
+  "version": "1.0.1",
   "description": "Check for outdated, incorrect, and unused dependencies.",
   "main": "lib",
   "engines": {
@@ -18,16 +18,12 @@
   "xo": {
     "space": 4,
     "rules": {
-      "no-warning-comments": [
-        0
-      ],
-      "global-require": [
-        0
-      ]
+      "no-warning-comments": [0],
+      "global-require": [0]
     }
   },
   "bin": {
-    "npm-check": "bin/cli.js"
+    "npm-check-with-yarn": "bin/cli.js"
   },
   "repository": {
     "type": "git",
@@ -59,11 +55,7 @@
     "url": "https://github.com/dylang/npm-check/issues"
   },
   "homepage": "https://github.com/dylang/npm-check",
-  "files": [
-    "bin",
-    "lib",
-    "lib-es5"
-  ],
+  "files": ["bin", "lib", "lib-es5"],
   "dependencies": {
     "babel-runtime": "^6.6.1",
     "callsite-record": "^3.0.0",
