@@ -1,4 +1,4 @@
-npm-check
+npm-check-with-yarn
 
 ### document
 
